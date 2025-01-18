@@ -5,12 +5,18 @@
  * 숫자를 인자로 받아서 해당 숫자의 세제곱을 반환하는 cube 함수를 함수 표현식 방식으로 작성하세요.
  */
 
+// function square(x) {
+//   // TODO
+//   return x * x;
+// }
+
 function square(x) {
-  // TODO
+  return x * x;
 }
 
 // TODO
-let cube;
-
+const cube = function cube(x) {
+  return x ** 3;
+};
 // export 를 수정하지 마세요.
 export { square, cube };
